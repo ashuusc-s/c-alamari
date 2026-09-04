@@ -1,8 +1,4 @@
-# c-alamari
-c plus plus
-
-# calcu-later
-
+#Calcu-later
 #include <iostream>
 int main() {
     int number1;
