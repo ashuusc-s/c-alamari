@@ -21,10 +21,11 @@ int main() {
     else if (operation == '*') {
         std::cout << (number1 * number2); }
     else if (operation == '/') {
-        std::cout << (number1 / number2); }
-    else
-    std::cout << (" invalid!! "); 
-    
+        if (number2 == 0) {
+        std::cout << " you cant divide by zero! "; } 
+    else {
+        std::cout << (number1 / number2); }}
+        
     std::cout << " — do you wanna continue this program? ";
     std::cin >> userchoice;
     
